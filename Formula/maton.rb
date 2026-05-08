@@ -1,16 +1,16 @@
 class Maton < Formula
   desc "Maton's official command line tool"
   homepage "https://maton.ai"
-  version "0.1.2"
+  version "0.1.3"
 
   on_macos do
     on_arm do
-      url "https://github.com/maton-ai/cli/releases/download/v0.1.2/maton_0.1.2_macOS_arm64.zip"
-      sha256 "b52f4e66c32cd45a073bb754173be7089a73f8ad09398472166f77b0a5086dd6"
+      url "https://github.com/maton-ai/cli/releases/download/v0.1.3/maton_0.1.3_macOS_arm64.zip"
+      sha256 "a711a5555940b031a92dc7af047b915b0aa49cf165c5a525800aa81a449e5d7c"
     end
     on_intel do
-      url "https://github.com/maton-ai/cli/releases/download/v0.1.2/maton_0.1.2_macOS_amd64.zip"
-      sha256 "ff731d02f775258e73af06b81b571440c8fc2cae180ec298c3050e8edbaa6de6"
+      url "https://github.com/maton-ai/cli/releases/download/v0.1.3/maton_0.1.3_macOS_amd64.zip"
+      sha256 "29b292f0d41e866b3347a020174e44116f49c93d136d92f96d1cf7e1791c425d"
     end
   end
 
